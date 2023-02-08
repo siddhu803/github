@@ -1,0 +1,145 @@
+Struct student{
+    int rollno;
+    float per ;
+};
+
+
+type struct student STD;
+STD s[60];
+
+
+
+class Student:
+     pass
+  
+s=Student()
+
+
+class Student:
+    def_init_(self,roll,name):
+       self.rollno=roll
+       self.name=name
+       print(self)
+
+s=Student(123,"sudhir")
+d=Student(123,"sudhir")
+print(s)
+
+
+class Student:
+    def_init_(self,r,n):
+       self.rollno=r
+       self.name=n
+    def display(self):
+       print(self.rollno,self.name)
+
+s=Student(123,"sudhir")
+s.display()
+
+"""
+object instance of class
+2
+instance
+class/static
+
+"""
+class Student:
+    college="Aditya"
+    cls="DS"
+    def_init_(self,r,n):
+       self.rollno=r
+       self.name=n
+    def display(self):
+       print(self.rollno,self.name)
+
+s=Student(123,"sudhir")
+s.display()
+
+
+class Student:
+    college="Aditya"
+    cls="DS"
+    def_init_(self,r,n)
+       self.rollno=r
+       self.name=n
+       self.college="aec"
+    def display(self):
+       print(self.rollno,self.name,student.college,self.cls)
+
+s=Student(123,"sudhir")
+s.display()
+
+
+"""
+obect instance of class
+3 member functions
+1.instance
+2.class
+
+
+
+
+
+class Student:
+    college="Aditya"
+    cls="DS"
+    def_init_(self,r,n)
+       self.rollno=r
+       self.name=n
+       self.college="aec"
+    def display(self):
+       print(self.rollno,self.name,student.college,self.cls)
+    @classmethod
+    def classmethod(cls):
+        print(cls.college)
+s=Student(123,"sudhir")
+s.display()
+student.classmethod()
+
+
+class Student:
+    college="Aditya"
+    cls="DS"
+    def_init_(self,r,n)
+       self.rollno=r
+       self.name=n
+       self.college="aec"
+    def display(self):
+       print(self.rollno,self.name,student.college,self.cls)
+    @classmethod
+    def classmethod(cls):
+        print(cls.college)
+    @staticmethod
+    def iseven(num):
+         if num%2:
+             print("odd")
+         else:
+             print("even")
+s=Student(123,"sudhir")
+s.display()
+s.classmethod()
+s.iseven(100)
+
+*Binary search*
+7
+l     M     H
+1 2 3 4 5 6 7
+0 1 2 3 4 5 6
+
+arr[m]==se: true found
+arr[m]>se: H=M-1
+arr[m]<se: l=M+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
